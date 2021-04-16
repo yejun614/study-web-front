@@ -1,0 +1,145 @@
+
+html,
+body {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+/*-------------------------------------------------------
+    ASIDE
+-------------------------------------------------------*/
+aside {
+  width: 350px;
+  height: 100%;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  background-color: #312450;
+}
+
+aside li {
+  list-style-type: none;
+  text-align: right;
+
+  width: 200px;
+  padding: 15px;
+  margin: 5px 0;
+
+  position: relative;
+}
+
+aside li:before,
+aside li:after {
+  content: '';
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+
+  background-color: #3c2c62;
+}
+
+aside li.active:after {
+  background: linear-gradient(to right, #5e42a6, #b74e91);
+}
+
+aside li a {
+  color: white;
+  font-size: 12px;
+  text-decoration: blink;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+/*-------------------------------------------------------
+    MAIN
+-------------------------------------------------------*/
+main {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+main > section {
+  margin-left: 350px;
+}
+
+/*-------------------------------------------------------
+    SECTION1: WELCOME
+-------------------------------------------------------*/
+#welcome {
+  height: 100%;
+  padding-left: 70px;
+  background-color: #5e42a6;
+
+  justify-content: flex-start;
+}
+
+#welcome .container {
+  width: 650px;
+  height: 250px;
+
+  justify-content: space-between;
+}
+
+#welcome h1 {
+  font-size: 45px;
+}
+
+#welcome span {
+  color: #ffffff88;
+  font-size: 20px;
+}
+
+#welcome span a {
+  color: #ffffff88;
+  text-decoration: blink;
+  border-bottom: 1px dotted #ffffff88;
+}
+
+/*-------------------------------------------------------
+    SECTION2: WHO
+-------------------------------------------------------*/
+#who {
+  background-color: #5052b5;
+}
+
+#who .item {
+  height: 350px;
+}
+
+#who .item .image {
+  width: 400px;
+  height: 100%;
+  overflow: hidden;
+}`
+
+
+
+
+
+/*-------------------------------------------------------
+    RESPONSIVE WEB (MOBILE)
+-------------------------------------------------------*/
+@media screen and (max-width: 380px) {
+
+}
+
+/*-------------------------------------------------------
+    RESPONSIVE WEB (TABLET PORTRAIT)
+-------------------------------------------------------*/
+@media screen and (max-width: 800px) {
+
+}
+
+/*-------------------------------------------------------
+    RESPONSIVE WEB (TABLET)
+-------------------------------------------------------*/
+@media screen and (max-width: 1040px) {
+
+}

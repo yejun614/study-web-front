@@ -1,0 +1,61 @@
+
+/*-------------------------------------------------------
+    FONTS
+-------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
+/*-------------------------------------------------------
+    RESET
+-------------------------------------------------------*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  color: white;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+/*-------------------------------------------------------
+    FLEXIBLE BOX
+-------------------------------------------------------*/
+.flex {
+  display: flex;
+}
+
+.flex.column {
+  flex-direction: column;
+}
+
+.flex.center {
+  justify-content: center;
+  align-items: center;
+}
+
+/*-------------------------------------------------------
+    LINE BUTTON
+-------------------------------------------------------*/
+.btn {
+  width: fit-content;
+  
+  color: white;
+  font-size: 11px;
+  letter-spacing: 2.5px;
+  text-decoration: blink;
+  text-transform: uppercase;
+
+  padding: 16px 35px;
+  margin: 10px;
+  border: 1px solid #ffffff15;
+  border-radius: 30px;
+
+  transition: all 200ms ease;
+  transition-property: background-color, border-color;
+}
+
+.btn:hover {
+  background-color: #ffffff15;
+  border-color: #ffffff18;
+}
